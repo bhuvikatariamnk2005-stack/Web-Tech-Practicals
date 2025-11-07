@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image:url(books.webp);
+    background-size: cover;
+    margin: 20px;
+    position: fixed;
+    right: 5px;
+}
