@@ -1,0 +1,12 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image:url(laptop.jpg);
+    background-size: cover;
+    margin-left: 670px;
+}
