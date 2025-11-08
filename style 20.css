@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+h2{
+    color: darkblue;
+}
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333333;
+}
+a{
+    color: green;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#about{
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 20px;
+}
