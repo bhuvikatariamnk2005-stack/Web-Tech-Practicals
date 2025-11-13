@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>Web Technology Assignment</title>
+  <script>
+    function findMinMax() {
+      let a = parseFloat(document.getElementById("n1").value);
+      let b = parseFloat(document.getElementById("n2").value);
+      let c = parseFloat(document.getElementById("n3").value);
+
+      let min = Math.min(a, b, c);
+      let max = Math.max(a, b, c);
+
+      document.getElementById("output").innerHTML =
+        "<b>MINIMUM = " + min + ", MAXIMUM = " + max + "</b>";
+    }
+  </script>
+</head>
+<body>
+    <h2>Min and Max of Three Numbers</h2>
+    <hr>
+  <h3>Finding Minimum and Maximum</h3>
+
+  <input type="number" id="n1" placeholder="Enter first number"><br><br>
+  <input type="number" id="n2" placeholder="Enter second number"><br><br>
+  <input type="number" id="n3" placeholder="Enter third number"><br><br>
+
+  <button onclick="findMinMax()">Find</button>
+  <h3 id="output"></h3>
+
+</body>
+</html>
