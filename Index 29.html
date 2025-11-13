@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Webtech-Sort Array</title>
+  <script>
+    function sortArray() {
+      let numbers = [45, 12, 89, 33, 7, 56];
+      numbers.sort(function(a, b) { return a - b; });
+      document.getElementById("result").innerText = "Sorted Array: " + numbers.join(", ");
+    }
+  </script>
+</head>
+<body>
+  <h2>Sorting Array in Ascending Order</h2>
+
+  <button onclick="sortArray()">Sort Numbers</button>
+  <h3 id="result"></h3>
+
+</body>
+</html>
